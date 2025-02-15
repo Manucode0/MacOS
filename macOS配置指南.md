@@ -1,4 +1,4 @@
-# MacOS配置指南
+# <center>MacOS配置指南</center>
 ## zsh简介与配置
 ## Python配置指南
 ## homebrew简介与配置
