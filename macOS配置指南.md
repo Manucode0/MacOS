@@ -90,8 +90,8 @@ git配置用户名和邮箱，用户名和邮箱地址是本地git客户端的�
 创建远程仓库并clone到本地，本地仓库自动与远程仓库同名
 github创建远程仓库只能通过github实现,不能在git本地操作实现
 创建并初始化本地仓库，github创建一个远程仓库，本地仓库与远程仓库不同名也可关联
-本地仓库与远程仓库关联
-创建并初始化本地仓库，关联一个已有的远程仓库，拉取远程仓库
+本地仓库与远程仓库关联remote
+
 
 
 
@@ -107,18 +107,11 @@ git clone 克隆项目;初始化一个本地仓库git init
 git add 保存修改到暂存区
 git commit 保存修改到仓库
 
-
-
-git push 提交到远程仓库
-
-
-
-
-
 本地仓库关联远程仓库
 git remote add origin git@github.com:YZ/helloTest.git
 
 
+git push 提交到远程仓库
 先将关联后的github仓库中的代码pull下来
 git pull origin master
 
@@ -129,17 +122,6 @@ git push -u origin master
 SSH关联GitHub仓库
 生成SSH Key：ssh-keygen -t rsa -C "本人GitHub绑定的邮箱" # 默认一路回车不要设置密码
 在GitHub添加SSH Key
-
-
-
-
-
-
-
-
-
-
-
 
 
 
