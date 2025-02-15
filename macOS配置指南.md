@@ -1,19 +1,10 @@
 #MacOS配置指南
 ##zsh简介与配置
+##Python配置指南
 ##homebrew简介与配置
 ##git简介与配置
 ##SSH简介与配置
 ##v2ray简介与配置
-
-
-
-
-
-
-
-
-
-
 
 
 
